@@ -16,14 +16,15 @@ class Exercice1 {
         
         swap(x,y);
         
-        System.out.println("X: " + x);
-        System.out.println("Y: " + y);
-        
 	}
 
-    public static String swap(String A, String B) {
+    public static void swap(String A, String B) {
         String x = A;
         A = B;
         B = x;
+        
+        System.out.println("SWAP!");
+        System.out.println("X: " + A);
+        System.out.println("Y: " + B);
     }
 }
