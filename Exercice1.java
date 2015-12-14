@@ -21,7 +21,7 @@ class Exercice1 {
         
 	}
 
-    public static void swap(String A, String B) {
+    public static String swap(String A, String B) {
         String x = A;
         A = B;
         B = x;
